@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>HUI</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+</head>
+<body>
+	<head>
+		<div class="container-head">
+			<nav class="nav-menu">
+				<ul class="menu">
+				<li class="li-menu">
+					<a href="#about" onclick="slowScroll ('#about')">About me</a>
+				</li>
+				<li class="li-menu">
+					<a href="#work" onclick="slowScroll ('#work')">My work</a>
+				</li>
+				<li class="li-menu">
+					<a href="#blog" onclick="slowScroll ('#blog')">Blog</a>
+				</li>
+				<li class="li-menu">
+					<a href="#contacts" onclick="slowScroll ('#contacts')">Contacts</a>
+				</li>
+			</ul>
+			</nav>
+		</div>
+	</head>
+
+	<section>
+		<div class="container-middle" id="about">
+			<h1 class="about-me">
+				Hi everyone, My name is <span class="active">Misha</span> , I'm a front-end developer
+			</h1>
+			<div class="text">
+				I live in Ukraine in the city Kharkiv
+				<br>
+				Worked freelancing from 2015 to 2019
+				<br>
+				I have experience of commercial development of websites
+				<br>
+				At the moment I'm studying react, and I also like the technology of canvas and HTML5.
+			</div>
+			<div class="ramka">
+				<h1>My skills</h1>
+				<span>react.js, html5, sass, css3, javascript, jquery, gulp, github, bootstrap</span>
+				<br>
+				<div class="icons">
+					<i class="devicon-android-plain"></i>
+					<i class="devicon-css3-plain colored"></i>
+					<i class="devicon-javascript-plain colored"></i>
+				</div>
+			</div>
+			<div class="fon-further">
+				
+			</div>
+		</div>
+	</section>
+		<!-- the end middle -->
+
+		<section>
+			<div class="container-my-work" id="work">
+				<span class="my-w">
+					My work
+				</span>
+			</div>
+		</section>
+		<!-- the end my work -->
+
+		<!-- start button -->
+		<div class="section-button">
+			<button id="modalBtn" class="button">
+			Нажми на меня!
+			</button>
+		</div>
+	<div id="simpleModal" class="modal">
+		<div class="modal-content">
+			<span class="closeBtn" id="closeBtn12">
+				&times;
+			</span>
+			<p class="p-modal">Привет, как тебе мой "Pop-up"?</p>
+			<p class="pp-modal">Наконец-то у меня получилось это сделать, я очень рад!</p>
+			<p class="ppp-modal">Напиши свои пожелания....</p>
+			<input type="text" class="input-text">
+			<br>
+			<button class="button-end">Отправить</button>
+		</div>
+	</div>
+		<!-- end button -->
+
+		<footer>
+			<div class="container-footer" id="contacts">
+				<div class="icons-footer">
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-telegram"></i>
+					<i class="fab fa-vk"></i>
+					<i class="fab fa-facebook-square"></i>
+				</div>
+			</div>
+		</footer>
+<script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+  <script>
+  function slowScroll (id) {
+    var offset = 0;
+    $('html, body').animate ({
+      scrollTop: $(id).offset ().top - offset
+    }, 500);
+    return false;
+  }
+  </script>
+  <script src="pop-up-js/main.js"></script>
+</body>
+</html>
+
+
