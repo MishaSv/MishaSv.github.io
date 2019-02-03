@@ -1,0 +1,33 @@
+div, p, a, span, img, nav, ul, li {
+	box-sizing: border-box;
+}
+
+body, h1, h2, p, img, nav, ul, li, a {
+	padding: 0;
+	margin: 0;
+}
+
+.middle {
+
+	height: 1561px;
+	background-size: cover;
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+     ), url(img/bg.jpg) no-repeat center center fixed;
+    color: white;
+}	
+
+#head-front {
+	font-size: 70px;
+}
+
+#head-desc {
+	font-size: 30px;
+}
+
+#skills {
+	color: #F7F12D;
+}
+
+
