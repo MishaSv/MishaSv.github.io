@@ -9,7 +9,7 @@ body, h1, h2, p, img, nav, ul, li, a {
 
 .middle {
 
-	height: 1561px;
+	height: 100%;
 	background-size: cover;
     background: linear-gradient(
           rgba(0, 0, 0, 0.7), 
@@ -30,4 +30,6 @@ body, h1, h2, p, img, nav, ul, li, a {
 	color: #F7F12D;
 }
 
-
+#btn-portfolio {
+	margin-bottom: 38px;
+}
