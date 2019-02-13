@@ -1,0 +1,96 @@
+div, p, a, span, img, nav, ul, li {
+	box-sizing: border-box;
+}
+
+body, h1, h2, p, img, nav, ul, li, a {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+}
+
+.navbar-nav li {
+	padding-right: 50px;
+	font-size: 1.5em
+}
+
+.header-section {
+	height: 100vh;
+	background-size: cover;
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+     ), url(img/bg.jpg) no-repeat center center fixed;
+    color: white;
+}
+
+.header-section h1 {
+	font-size: 5em;
+	padding-top: 100px;
+	text-shadow: 1px 1px 10px #000
+}
+
+.header-section p {
+	font-size: 1.5em;
+	margin-top: 50px;
+}
+
+.header-section h2 {
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	color: yellow;
+	text-shadow: 1px 1px 10px #000
+}
+
+.section-portfolio {
+	background-color: #343a40;
+	color: white;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.section-portfolio h1{
+	padding-bottom: 80px;
+}
+
+.section-messeger {
+	background-color: #2a2a2a;
+	color: white;
+	padding: 100px 0;
+}
+
+
+.footer {
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+footer #icon {
+	font-size: 70px;
+	color: white;
+}
+
+footer #icon:hover {
+	color: #F3FF3A;
+	opacity: 0.9;
+	transition: all 0.7s ease;
+}
+
+
+
+
+/*медиазапросы*/
+
+@media (max-width: 770px) {
+	.header-section {
+	height: 100%;
+	}
+
+	.header-section h1{
+	font-size: 50px;
+	}
+
+	.header-section p{
+	font-size: 20px;
+	}
+}
