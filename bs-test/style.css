@@ -19,7 +19,7 @@ body, h1, h2, p, img, nav, ul, li, a {
     background: linear-gradient(
           rgba(0, 0, 0, 0.7), 
           rgba(0, 0, 0, 0.7)
-     ), url(img/bg.jpg) no-repeat center center fixed;
+     ), url(img/bg.jpg) no-repeat;
     color: white;
 }
 
@@ -81,7 +81,7 @@ footer #icon:hover {
 
 /*медиазапросы*/
 
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
 	.header-section {
 	height: 100%;
 	}
