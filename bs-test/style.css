@@ -34,6 +34,10 @@ body, h1, h2, p, img, nav, ul, li, a {
 	margin-top: 50px;
 }
 
+#text {
+	margin-top: 20px;
+}
+
 .header-section h2 {
 	padding-bottom: 1.5em;
 	padding-top: 1.5em;
@@ -93,4 +97,8 @@ footer #icon:hover {
 	.header-section p{
 	font-size: 20px;
 	}
+
+	#text {
+	margin-top: 10px;
+}
 }
