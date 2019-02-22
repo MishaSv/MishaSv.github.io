@@ -1,0 +1,390 @@
+/*Variables*/
+
+:root {
+  --green-color: #5dca88;
+}
+
+:root {
+  --black-color: #636c6c;
+}
+
+:root {
+  --grey-color: #bac1c1;
+}
+
+:root {
+  --tittle-fsize: 36px;
+}
+
+/*Variables*/
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+/*header*/
+.header {
+	margin: 40px;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.header__number, .header__email{
+	font-size: 18px;
+}
+
+.header__icon {
+	padding-right: 10px;
+}
+/*header*/
+
+/*section-main*/
+.section-main {
+	background: url(img/bg-main.png)no-repeat 50% 50%;
+	background-size: cover;
+		color: white;
+}
+
+.section__main--text-block {
+	max-width: 470px;
+	margin-top: 180px;
+}
+
+.section__main--tittle {
+	font-size: var(--tittle-fsize);
+	font-weight: 700;
+}
+
+.section__main--subtittle {
+	font-weight: 300;
+	font-size: var(--tittle-fsize);
+}
+
+.section__main--description {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 45px 0 45px;
+	color: #9dc7d1;
+}
+
+.section__main--btn {
+	width: 240px;
+	height: 60px;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	border-radius: 35px;
+	font-size: 21px;
+	 background-color: Transparent;
+	 color: white;
+	 font-weight: 700;
+	 margin-bottom: 258px;
+}
+/*section-main*/
+
+/*section features*/
+.features__tittle {
+	margin: 33px;
+	font-size: var(--tittle-fsize);
+	color: #636c6c;
+	font-weight: 700;
+}
+
+.features__describe {
+	margin-bottom: 130px;
+}
+
+.section__features__box{
+		margin: 135px 0 160px;
+}
+.features__block__nav {
+
+	font-size: 20px;
+	color: #9fa9a9;
+}
+
+.block__nav_item {
+	margin-bottom: 40px;
+}
+
+.item__text {
+	margin-left: 40px;
+}
+
+.item__icon {
+	font-size: 48px;
+}
+
+.block__2__icon {
+	font-size: 220px;
+	color: var(--green-color);
+}
+
+.block__2__tittle {
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #636c6c;
+}
+
+.block__2__describe {
+	color: #afb8b8;
+}
+/*section features*/
+
+/*section_about_phone*/
+.section_about_phone {
+	background-color: #f2f9fe;
+}
+
+.about_phone_block-tittle {
+	color: #5dca88;
+	font-size: var(--tittle-fsize);
+	padding: 160px 0 20px;
+}
+
+.hr {
+	height: 2px;
+	background-color: #949c9c;
+	width: 104px;
+	margin-bottom: 45px;
+}
+
+.about_phone_block-tittle_another {
+	color: #8c9494;
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.about_phone_block_describe {
+	color: #8c9494;
+	width: 80%;
+	margin-bottom: 55px;
+}
+
+.section__about_phone-btn {
+	width: 240px;
+	height: 60px;
+	border: 3px solid rgba(99, 108, 108, 0.5);
+	border-radius: 35px;
+	font-size: 21px;
+	 background-color: Transparent;
+	 color: #636c6c;
+	 font-weight: 700;
+}
+
+.about_phone_img {
+	margin-top: 62px;
+	margin-bottom: 70px;
+}
+/*section_about_phone*/
+
+/*section_gallery*/
+.gallery_tittle {
+	font-size: 36px;
+	font-weight: 700;
+	color: #636c6c;
+	margin: 100px 0 24px;
+}
+
+.gallary_describe {
+	color: #afb8b8;
+	margin-bottom: 85px;
+}
+
+.img_gallary_main {
+	margin-bottom: 40px;
+}
+
+.gallary_img_describe {
+	font-size: 14px;
+	color: #8c9494;
+	margin: 0 auto;
+	width: 80%;
+	padding-bottom: 120px;
+}
+/*section_gallery*/
+
+/*finish section reverse*/
+.section_about_phone_reverse {
+	background: url(img/cuple-phones.png) no-repeat;
+	background-position: 50% 10%
+}
+.section__about_phone-btn-reverse {
+	width: 240px;
+	height: 60px;
+	border: 3px solid rgba(99, 108, 108, 0.5);
+	border-radius: 35px;
+	font-size: 21px;
+	 background-color: Transparent;
+	 color: #636c6c;
+	 font-weight: 700;
+
+}
+
+.box-btn-reverse {
+	padding-bottom: 150px;
+}
+/*finish section reverse*/
+
+/*section_quote*/
+.quote_tittle {
+	margin-top: 100px;
+	color: #636c6c;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.img_quote {
+	margin: 40px;
+}
+
+.quote_img_desc {
+	color: #8c9494;
+	font-family: "Droid Serif";
+	font-size: 24px;
+	font-style: italic;
+}
+
+.quote_name {
+	color: #5dca88;
+	font-size: 24px;
+	margin-top: 27px;
+	margin-bottom: 40px;
+}
+.quote_dots {
+	margin-bottom: 100px;
+}
+
+.section_subscribe {
+	background-color: #f3f5f5;
+}
+/*section_quote*/
+
+/*section_sbscribe*/
+
+.box_subscribe_item {
+	color: #8c9494;
+	font-size: 36px;
+	font-weight: 700;
+		margin: 100px 0 60px;
+}
+
+.icon {
+	padding-right: 25px;
+
+}
+
+.box {
+	margin: 0 auto;
+}
+
+.form-group input {
+	margin: 0 auto;
+}
+form .section__main--btn {
+	background-color: #5dca88;
+	border: 0px solid rgba(255, 255, 255, 0.5);
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+/*section_sbscribe*/
+
+.footer {
+	background-color: #2d312f;
+}
+
+.footer_txt {
+	
+	padding: 75px 0 34px;
+}
+
+.footer_h1 {
+	color: #8c9494;
+	font-size: 24px;
+} 
+
+.footer_icon i{
+	font-size: 33px;
+	background-color: white;
+	border-radius: 22px;
+	opacity: 0.7;
+}
+
+.footer_menu a {
+	color: white;
+
+}
+
+.footer_menu a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav ul li {
+	text-decoration: none;
+	padding-left: 20px;
+	opacity: 0.7;
+	margin-top: 30px;
+	display: block;
+}
+
+.nav ul li:first-child {
+
+	padding-left: 0px;
+
+}
+
+
+/*media*/
+
+@media (max-width: 990px) {
+	.about_phone_block_describe {
+		    margin-bottom: 15px;
+	}
+	.section-main {
+		background: url(img/bg-no-phone.png)no-repeat 50% 50%;
+	background-size: cover;
+	}
+}
+
+@media (max-width: 600px) {
+	.section__main--btn {
+		margin-bottom: 58px;
+	}
+}
+
+@media (max-width: 780px) {
+	.section_about_phone_reverse {
+		background: url(img/bg-nophones.png) no-repeat;
+	}
+}
+
+@media (max-width: 765px) {
+	.off {
+		display: none;
+	}
+}
+
+@media (max-width: 405px) {
+	.about_phone_block-tittle {
+		padding: 50px 0 20px;
+	}
+	.box-btn-reverse {
+		    padding-bottom: 50px;
+	}
+}
+@media (max-width: 320px) {
+	.features__describe {
+		    margin-bottom: 30px;
+	}
+}
+
+
