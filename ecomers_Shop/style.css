@@ -1,0 +1,728 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+h4, h2, p, span {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	border: 3px solid black;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.header_stock {
+	background-image: url(img/header_stock.png);
+	background-color: #a92353;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 1;
+	padding: 25px 0;
+	color: white;
+}
+
+.stock_tittle {
+	color: white;
+}
+
+.header_nav {
+	position: relative;
+  z-index: 1;
+  padding: 31px 0px 0px;
+}
+
+.header_nav:before {
+	content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: .6; 
+  z-index: -1;
+  background-color: #fff;
+}
+
+.box:after {
+	border-bottom: 1px solid black;
+	content: "";
+	display: block;
+	padding-top: 15px;
+}
+
+.header_100_opacity {
+	opacity: 1.0;
+}
+
+.header_nav_email {
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Montserrat Medium";
+	font-weight: 500;
+	
+}
+
+.header_nav_email span {
+	font-size: 15px;
+	font-family: "Montserrat - Bold";
+	font-weight: 700;
+}
+
+.header_nav_lang {
+	color: #222222;
+	font-family: "Montserrat - Extra Bold";
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.section_main {
+	background-image: url(img/main_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*меню*/
+.logo {
+	color: #222222;
+	font-family: "Montserrat - Black";
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.main_nav {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+nav .fas{
+	color: black;
+}
+
+.main_nav ul {
+	list-style: none;
+}
+
+.fa-search {
+	margin-left: 30px;
+}
+
+.row_MeStore {
+	padding: 22px 0;
+}
+/*меню*/
+
+.main_tittle {
+	margin-top: 260px;
+	font-size: 121px;
+	font-weight: 700;
+	line-height: 87.22px;
+	text-transform: uppercase;
+	/* Text style for "F, ashion" */
+	color: #222222;
+	letter-spacing: -1.18px;
+}
+
+.main_tittle span{
+	/* Text style for "F, ashion" */
+	color: #f9236f;
+}
+
+.margin_minus {
+	/*margin-left: -40px;*/
+}
+
+.main_subtittle {
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase;
+	/* Text style for "2, 022" */
+	letter-spacing: 100.79px;
+	margin-left: 110px;
+	margin-bottom: 30px;
+}
+
+.main_box {
+	 align-items: flex-end;
+	 max-width: 670px;
+}
+
+.main_desc{
+	font-weight: 500;
+	line-height: 24px;
+	max-width: 620px;
+	margin-bottom: 70px;
+}
+
+.main_btn {
+	background-color: #f9234a;
+	width: 156px;
+	height: 47px;
+	color: white;
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 360px;
+}
+/*конец_главной*/
+
+/*секция каталог*/
+.section_bg_catalog {
+	background-image: url(img/test.png);
+}
+
+.sub_container {
+	background-color: white;
+	position: relative;
+	bottom: 55px;
+}
+
+.catalog_box {
+	margin-bottom: 110px;
+}
+
+.catalog_icon {
+	position: relative;
+	bottom: 60px;
+}
+
+.catalog_box_tittle {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.catalog_box_desc {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.catalog_for_woman {
+	background-image: url(img/catalog_woman.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 30px;
+}
+
+.catalog_for_man {
+	background-image: url(img/catalog_man.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 30px;
+}
+
+.for_catalog_tittle {
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 39.84px;
+	/* Text style for "F, ashion" */
+	color: #222222;
+	letter-spacing: -1.18px;
+	padding-bottom: 18px;
+}
+
+.for_catalog_tittle span{
+	color: #f9236f;
+	line-height: 45px;
+}
+
+
+.for_catalog_desc {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+.wrap_catalog {
+	max-width: 222px;
+	padding-top: 46px;
+	padding-bottom: 34px;
+	padding-left: 43px;
+}
+
+.btn_catalog {
+	background-color: #f9234a;
+	width: 156px;
+	height: 47px;
+	color: white;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+
+.featured_product_tittle {
+	font-size: 26px;
+	font-weight: 800;
+	margin-top: 110px;
+}
+
+.featured_product_tittle span{
+	font-size: 16px;
+	font-weight: 500
+}
+
+.featured_product_subtittle {
+	
+	font-weight: 500;
+}
+
+.product_tittle {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+.box_product_price {
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 10px;
+}
+
+.box_product_price:before {
+		content: "$74.00";
+		color: #6b6b6b;
+		font-size: 15px;
+		font-weight: 500;
+		text-decoration: line-through;
+		margin-right: 12px;
+}
+
+.pb50 {
+	padding-bottom: 50px;
+}
+
+.swichers {
+	padding-bottom: 42px;
+}
+
+.box_bottom {
+	position: relative;
+	background-color: white;
+
+}
+
+/*конец каталога*/
+
+/*блог_новости*/
+
+.section_blog_news {
+	background-image: url(img/bg_blog_news.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 185px;	
+}
+
+.news_tittle {
+	font-size: 26px;
+	font-weight: 800;
+	margin: 70px 0 20px;
+}
+
+.blog_box_items {
+	background-color: white;
+
+}
+
+.box_item_img {
+	width: 100%;
+}
+
+.box_blog_items_text {
+	padding: 0 30px;
+}
+
+.box_item_tittle {
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 34px;
+	color: #515151;
+}
+.blog_box_subtittle {
+	color: #a8a8a8;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 23px;
+}
+.blox_box_desc {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 23px;
+}
+.blog_box_btn {
+
+	width: 99px;
+	height: 30px;
+	background-color: #000000;
+	background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
+	font-size: 13px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+
+.blog_box_icons .fas{
+	color: #f92349;
+	margin-top: 10px;
+}
+/*блог_новости*/
+
+
+/*бренды*/
+.section_brands {
+	/*background-color: white;*/
+	position: relative;
+}
+
+.test-2 {
+	background-color: white;
+	position: absolute;
+	left: 20%;
+	top: -80px;
+	padding-top: 40px;
+}
+
+.box_brand {
+	margin-bottom: 120px;
+}
+.box_brand_tittle {
+	font-size: 26px;
+	font-weight: 800;
+	margin-bottom: 49px;
+	margin-top: 15px;
+}
+.box_brand_wrap {
+}
+.d-flex {
+}
+.right_box_item {
+	text-align: left;
+	margin-left: 27px;
+}
+.box_brand_wrap_subtittle {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.brand_img {
+	max-width: 91px;
+	max-height: 95px;
+}
+
+.box_brand_wrap_subtittle span {
+	color: #939393;
+	font-size: 17px;
+	font-weight: 400;
+	margin-top: -120px;
+}
+
+.box_brand_wrap_subtittle p {
+
+	line-height: 1;
+}
+
+
+.box_brand_price {
+	color: #f92349;
+
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+
+.box_brand_price:before {
+	content: "$74.00";
+	text-decoration: line-through;
+	font-size: 16px;
+	font-weight: 500;
+	color: #6b6b6b;
+}
+
+.string {
+	margin-top: 19px;
+	background-color: #c2c2c2;
+	height: 1px;
+		margin-bottom: 19px;
+		width: 80%;
+}
+
+.brand_tittle_message {
+	font-size: 26px;
+	font-weight: 800;
+}
+.brand_subtittle_message {
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 14px 0 40px;
+}
+.brand_message_box {
+}
+.brand_input_messege {
+	width: 50%;
+	margin-right: 10px;
+	margin-bottom: 55px;
+}
+.btn_brand_message {
+	width: 119px;
+	height: 38px;
+	background-color: #000000;
+background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+/*бренды*/
+
+
+
+/*начало_секции_лого*/
+.section_logo_brands {
+	/*background: url(img/bg_logo_brands.png) no-repeat;*/
+	background-size: cover;
+	background-image: url(img/test-2.png);
+	padding-top: 150px;
+	padding-bottom: 55px;
+	height: 800px;
+}
+
+.section_22 {
+	padding-top: 100px;
+	background-color: #eeeeee;
+}
+
+.f100 {
+	width: 100%;
+}
+
+.section_22 img{
+	padding-top: 50px;
+	padding-bottom: 55px;
+	
+}
+/*конец_секции_лого*/
+
+/*footer*/
+.footer {
+	background: url(img/bg_footer.png) no-repeat;
+	background-size: cover;
+	padding: 82px 0 100px;
+}
+
+/*footer*/
+.footer_tittle {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 800;
+}
+.footer_desc {
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	margin: 32px 0 42px;
+}
+.footer_box_contact {
+}
+.footer_wrap {
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.footer_wrap .fas{
+	color: white;
+
+}
+
+.icon_adress {
+	margin-right: 10px;
+}
+.adress {
+	color: #ffffff;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 30px;
+}
+.icon_phone {
+	margin-right: 10px;
+}
+.phone {
+	color: #ffffff;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 30px;
+}
+.icon_email {
+	margin-right: 12px;
+}
+.emaeil {
+	color: #ffffff;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.sub_point {
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 25px;
+}
+
+.box_1 {
+	flex-direction: column;
+
+}
+
+.wrap_follow_us {
+	margin-top: 35px;
+	color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.wrap_follow_us .fab, .fas{
+	color: white;
+}
+
+.payments_tittle {
+	margin: 55px 0 20px;
+}
+
+.nav_end {
+	margin-top: 65px;
+	
+}
+
+.test-100 {
+	flex-wrap: wrap;
+}
+
+.nav_end ul{
+	list-style: none;
+}
+
+.nav_end li{
+	padding-right: 35px;	
+	color: white;
+}
+
+.nav_end li a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav_end li a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.end {
+	margin-top: 40px;
+	color: white;
+	font-size: 14px;
+font-weight: 500;
+}
+
+.navbar_li {
+	list-style: none;
+
+	width: 20%;
+	color: black;
+	padding-top: 10px;
+	text-align: center;
+	font-style: 18px;
+	font-weight: 600;
+}
+
+.pos-f-t {
+		display: none;
+	}
+
+/*847px*/
+@media (max-width: 847px) {
+	.main_tittle {
+		font-size: 90px;
+	}
+	.main_subtittle {
+		    letter-spacing: 60px;
+	}
+}
+
+/*524px*/
+@media (max-width: 524px) {
+	.main_tittle {
+		font-size: 50px;
+	}
+	.main_subtittle {
+		    letter-spacing: 30px;	
+		    margin-left: 40px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.test-2 {
+		position: static;
+	}
+	.section_logo_brands {
+		display: none;
+	}
+}
+
+@media (max-width: 500px) {
+	.pos-f-t {
+		display: block;
+	}
+	.row_MeStore {
+		display: none;
+	}
+}
+
+
+.catalog_for_man {
+	margin-right: 0px;
+}
+
+.catalog_for_woman {
+	margin-left: 0px;
+}
+
+
+@media (max-width: 700px) {
+	.section_blog_news {
+		    padding-bottom: 40px;
+	}
+}
+
+
+@media (max-width: 989px) {
+	.catalog_for_woman {
+		margin-bottom: 30px;
+}
+}
+
+
+@media (max-width: 1000px) {
+	.delete_this_on_sm {
+			display: none;
+	}
+.brand_tittle_message {
+		margin-top: 50px;
+	}
+}
