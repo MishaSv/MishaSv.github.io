@@ -275,6 +275,7 @@ nav .fas{
 	font-size: 26px;
 	font-weight: 800;
 	margin-top: 110px;
+	margin-bottom: 20px;
 }
 
 .featured_product_tittle span{
@@ -285,6 +286,7 @@ nav .fas{
 .featured_product_subtittle {
 	
 	font-weight: 500;
+	margin-bottom: 40px;
 }
 
 .product_tittle {
