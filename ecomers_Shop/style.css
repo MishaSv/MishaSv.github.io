@@ -100,6 +100,15 @@ ul {
 	font-weight: 700;
 }
 
+.main_nav a {
+	color: black;
+}
+
+.main_nav a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
 nav .fas{
 	color: black;
 }
@@ -114,6 +123,15 @@ nav .fas{
 
 .row_MeStore {
 	padding: 22px 0;
+}
+
+.row_MeStore a{
+	color: black;
+}
+
+.row_MeStore a:hover{
+	text-decoration: none;
+	opacity: 0.8;
 }
 /*меню*/
 
@@ -515,7 +533,7 @@ background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
 .footer {
 	background: url(img/bg_footer.png) no-repeat;
 	background-size: cover;
-	padding: 82px 0 100px;
+	padding: 82px 0 50px;
 }
 
 /*footer*/
@@ -676,7 +694,7 @@ font-weight: 500;
 	}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1450px) {
 	.test-2 {
 		position: static;
 	}
@@ -725,4 +743,35 @@ font-weight: 500;
 .brand_tittle_message {
 		margin-top: 50px;
 	}
+}
+
+button:hover {
+	color: black;
+	background: ;
+	opacity: 0.9;
+
+}
+
+button {
+
+	
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+	color: white;
 }
