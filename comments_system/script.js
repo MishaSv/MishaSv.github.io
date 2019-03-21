@@ -33,7 +33,7 @@ function showComments() {
 	comments.forEach(function(item) {
 		out += `<div class="review_name mt">${item.name}</div> `;
 		out += `<div class="review_date mt">${timeConverter(item.time)}</div> `;
-		out += `<div class="comment">${item.body}></div> `;
+		out += `<div class="comment">${item.body}</div> `;
 	});
 	commentField.innerHTML = out;
 }
