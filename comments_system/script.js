@@ -1,6 +1,14 @@
 let comments = [];
 loadComments();
 
+
+function checkForm(form){
+  if (document.getElementById("comment-body").value == '')
+{
+  alert ('Заполните все поля');
+  return false;
+}
+}
 document.getElementById('comment-add').onclick = function(){
 	event.preventDefault();
 	let commentName = document.getElementById('comment-name');
@@ -11,6 +19,7 @@ document.getElementById('comment-add').onclick = function(){
 		body : commentBody.value,
 		time : Math.floor(Date.now()/1000)
 	}
+	checkForm();
 	commentName = '';
 	commentBody = '';
 	comments.push(comment);
