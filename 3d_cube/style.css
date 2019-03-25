@@ -1,3 +1,12 @@
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#225dc1+0,3f4c6b+100 */
+background: #225dc1; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #225dc1 0%, #3f4c6b 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #225dc1 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #225dc1 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#225dc1', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
 #wrapper {
 	perspective: 900px;
 	max-width: 400px;
