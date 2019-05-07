@@ -1,0 +1,112 @@
+.modal-content{
+    border-radius: 0;
+    border: none;
+    background-color: #CEE002;
+    padding: 50px;
+}
+.modal button.close span{
+    font-weight: 200;
+    font-size: 40px;
+}
+.modal .close:focus{
+    outline: none;
+}
+.modal-footer{
+    justify-content: space-around;
+    border: none;
+}
+.modal-footer form{
+    width: 100%;
+}
+.modal-footer .wrap-input{
+    width: 47%;
+
+}
+.modal-footer .wrap-input input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 3px;
+    font-family: "GothamPro";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+
+}
+.modal-footer .wrap-input input.error{
+    border-color: #f12525;
+}
+.modal-footer .wrap-input input::placeholder{
+    color: rgba(0, 0, 0, 0.3)!important;
+
+}
+.modal-footer .wrap-input input:focus{
+    outline: none;
+}
+.modal-header{
+    border: none;
+}
+.modal-footer .btn-send{
+
+    background: #000000;
+    padding: 10px 20px;
+
+    font-family:'GothamPro';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #CEE002;
+    border: none;
+}
+.modal-footer .btn-send:hover{
+    cursor: pointer;
+}
+.modal-footer .btn-send:focus{
+    outline: none;
+}
+.modal-title{
+    font-family: "GothamPro";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 48px;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.modal-body p{
+    font-family:'GothamPro';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.modal-footer .btns{
+    margin-top: 30px;
+    font-family:'GothamPro';
+}
+.modal-dialog{
+    max-width: 886px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)!important;
+}
+.modal .modal-dialog .close{
+    position: absolute;
+    right: 24px;
+    top: 15px;
+}
